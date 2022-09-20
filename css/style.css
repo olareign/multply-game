@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin: 10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border:solid green 2px;
+    color: green;
+}
+
+.input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+
+.btn{
+    display: block;
+    background-color: green;
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.score{
+    color: green;
+    text-align: right;
+}
